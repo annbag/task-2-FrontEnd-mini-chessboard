@@ -45,3 +45,36 @@ h1 {
 .board2 span:first-child, .board2 span:last-child {
 	background-color: red;
 }
+.board3 {
+	position: relative;
+	width: 50vh;
+	height: 50vh;
+	border: 2px solid #000;
+	margin: 80px auto 0;
+}
+.board3 span {
+	position: absolute;	
+	border: 2px solid #000;
+	width: 50%;
+	height: 50%;
+}
+.board3 span:first-child {
+	top: 0;
+	left: 0;
+	background-color: red;
+}
+.board3 span:nth-child(2) {
+	top: 0;
+	left: 50%;
+	background-color: #ddd;
+}
+.board3 span:nth-child(3) {
+	top: 50%;
+	left: 0;
+	background-color: #ddd;
+}
+.board3 span:last-child {
+	bottom: 0;
+	right: 0;
+	background-color: red;
+}
