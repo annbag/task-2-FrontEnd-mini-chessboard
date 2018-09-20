@@ -4,7 +4,10 @@
 	box-sizing: border-box;
 }
 .board {	
-	margin: 50px auto 0;
+	/*margin: 50px auto 0;*/
+	position: absolute;
+	top: calc(50% - 25vh);
+	left: calc(50% - 25vh);
 	width: 50vh;
 	height: 50vh;
 	border: 2px solid #000;
