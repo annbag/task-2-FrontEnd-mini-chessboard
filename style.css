@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.board {	
+.board1 {	
 	/*margin: 50px auto 0;*/
 	position: absolute;
 	top: calc(50% - 25vh);
@@ -14,15 +14,34 @@
 	font-size: 0;
 }
 h1 {
-	margin-top: 50px;
+	margin-top: 20px;
 	text-align: center;
 }
-.board span {
+.board1 span {
 	display: inline-block;
 	width: 50%;
 	height: 50%;
 	border: 2px solid #000;
 }
-.board span:first-child, .board span:last-child {
+.board1 span:first-child, .board1 span:last-child {
+	background-color: red;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.board2 {
+	width: 50vh;
+	margin: 100vh auto 0;	
+	border: 2px solid #000;
+}
+.board2 span {
+	float: left;
+	width: 50%;	
+	height: 25vh;
+	border: 2px solid #000;
+}
+.board2 span:first-child, .board2 span:last-child {
 	background-color: red;
 }
